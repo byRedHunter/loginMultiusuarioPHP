@@ -1,0 +1,27 @@
+.container-login {
+    animation: aparecer 1.5s ease-in;
+}
+.login-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    span {
+        font-size: 30px;
+        color: $light;
+        font-family: $font-title;
+    }
+}
+.login-bottom {
+    color: $light;
+    font-size: 14px;
+    span {
+        font-weight: bold;
+        cursor: pointer;
+
+        &:hover {
+            text-decoration: underline;
+            color: $secundary;
+        }
+    }
+    
+}
